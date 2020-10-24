@@ -13,9 +13,8 @@ url ='https://www.accuweather.com/en/us/mckinney/75069/fishing-weather/335923'
 #    get url request and using header to produce 200 status code
 result = requests.get(url,headers=header)
 
-# //////////////// Function to produce 5 consecutive dates ///////////
 
-# //////////// Set dates for next 5 days \\\\\\\\\\\\
+# //////////// Format 5 consecutive days \\\\\\\\\\\\
 
 def five_day():
     start = datetime.now()
