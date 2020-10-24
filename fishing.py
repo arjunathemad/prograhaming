@@ -16,17 +16,6 @@ result = requests.get(url,headers=header)
 cond_dict = {}
 # //////////////// Function to produce 5 consecutive dates ///////////
 
-
-
-//// To add later\\\\\\\\\\\
-def get_location():
-    while True:
-        zip = input('Please enter a valid 5 digit zip code: ')
-        if len(zip) != 5 or zip.isalpha():
-            continue
-        else:
-            return zip
-
 # //////////// Set dates for next 5 days \\\\\\\\\\\\
 
 def five_day():
